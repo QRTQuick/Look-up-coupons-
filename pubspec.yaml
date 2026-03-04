@@ -16,7 +16,7 @@ dependencies:
   google_maps_flutter: ^2.6.1
   flutter_local_notifications: ^17.2.1
   timezone: ^0.9.4
-  flutter_timezone: ^1.0.8
+  flutter_timezone: ^3.0.1
   cached_network_image: ^3.4.1
   shared_preferences: ^2.3.2
   permission_handler: ^11.3.1
