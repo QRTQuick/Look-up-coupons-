@@ -6,7 +6,7 @@ class AppThemes {
     colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF0B3D91)),
     scaffoldBackgroundColor: const Color(0xFFF7F8FA),
     appBarTheme: const AppBarTheme(centerTitle: false),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       elevation: 2,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
     ),
@@ -19,7 +19,7 @@ class AppThemes {
       seedColor: const Color(0xFF0B3D91),
       brightness: Brightness.dark,
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       elevation: 2,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
     ),

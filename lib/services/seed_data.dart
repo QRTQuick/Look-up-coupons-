@@ -47,7 +47,7 @@ List<Deal> seedDeals() {
     ),
     Deal(
       title: 'Grocery Saver Bundle',
-      description: 'Save $10 when you spend $50 or more.',
+      description: 'Save \$10 when you spend \$50 or more.',
       shopName: 'Green Basket',
       imageUrl: null,
       expiresAt: now.add(const Duration(days: 6)),
