@@ -1,0 +1,26 @@
+# Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+
+# iOS/macOS
+ios/Flutter/.last_build_id
+
+# Logs
+*.log

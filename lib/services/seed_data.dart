@@ -1,0 +1,88 @@
+import 'package:look_up_coupons/models/deal.dart';
+
+List<Deal> seedDeals() {
+  final now = DateTime.now();
+
+  return [
+    Deal(
+      title: 'Lunch Special 2-for-1',
+      description: 'Buy one sandwich, get one free. Weekdays only.',
+      shopName: 'Downtown Deli',
+      imageUrl:
+          'https://images.unsplash.com/photo-1555992336-03a23c7b20a0',
+      expiresAt: now.add(const Duration(days: 3)),
+      category: 'Restaurant',
+      latitude: 40.7138,
+      longitude: -74.0065,
+      createdAt: now.subtract(const Duration(days: 1)),
+      updatedAt: now,
+      isUserAdded: false,
+    ),
+    Deal(
+      title: 'Weekend Coffee Pass',
+      description: 'Unlimited drip coffee for the weekend.',
+      shopName: 'Roast & Co.',
+      imageUrl:
+          'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+      expiresAt: now.add(const Duration(days: 5)),
+      category: 'Restaurant',
+      latitude: 40.7172,
+      longitude: -74.0039,
+      createdAt: now.subtract(const Duration(hours: 10)),
+      updatedAt: now,
+      isUserAdded: false,
+    ),
+    Deal(
+      title: 'Spring Street Market',
+      description: '20% off local artisan goods and pop-up stalls.',
+      shopName: 'Spring Street Market',
+      imageUrl: null,
+      expiresAt: now.add(const Duration(days: 7)),
+      category: 'Events',
+      latitude: 40.7216,
+      longitude: -74.0048,
+      createdAt: now.subtract(const Duration(days: 2)),
+      updatedAt: now,
+      isUserAdded: false,
+    ),
+    Deal(
+      title: 'Grocery Saver Bundle',
+      description: 'Save $10 when you spend $50 or more.',
+      shopName: 'Green Basket',
+      imageUrl: null,
+      expiresAt: now.add(const Duration(days: 6)),
+      category: 'Grocery',
+      latitude: 40.7098,
+      longitude: -74.0109,
+      createdAt: now.subtract(const Duration(days: 1, hours: 3)),
+      updatedAt: now,
+      isUserAdded: false,
+    ),
+    Deal(
+      title: 'City Fit Trial Week',
+      description: 'Try any class for free this week only.',
+      shopName: 'City Fit Studio',
+      imageUrl: null,
+      expiresAt: now.add(const Duration(days: 4)),
+      category: 'Services',
+      latitude: 40.7154,
+      longitude: -74.0123,
+      createdAt: now.subtract(const Duration(hours: 6)),
+      updatedAt: now,
+      isUserAdded: false,
+    ),
+    Deal(
+      title: 'Retail Rush Sale',
+      description: 'Up to 40% off select items in store.',
+      shopName: 'Union Square Outfitters',
+      imageUrl: null,
+      expiresAt: now.add(const Duration(days: 8)),
+      category: 'Retail',
+      latitude: 40.7359,
+      longitude: -73.9911,
+      createdAt: now.subtract(const Duration(days: 3)),
+      updatedAt: now,
+      isUserAdded: false,
+    ),
+  ];
+}
